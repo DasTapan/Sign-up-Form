@@ -1,0 +1,47 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #414046;
+}
+
+div.container {
+    height: 100vh;
+    width: 65vw;
+    background-color: blue;
+    margin: auto;
+
+    display: flex;
+}
+
+/* .pic {
+    width: 40%;
+    height: 100%;
+}
+
+.info {
+    width: 60%;
+    height: 100%;
+    background-color: red;
+} */
+
+.container>div {
+    flex: 1 1 0%;
+}
+
+.pic {
+    background-image: url("./Img/rain.jpg");
+    background-size: cover;
+}
+
+.container>.info {
+    flex: 2 1 0%;
+    background-color: red;
+}
