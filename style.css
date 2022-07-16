@@ -21,27 +21,28 @@ div.container {
     display: flex;
 }
 
-/* .pic {
-    width: 40%;
-    height: 100%;
-}
-
-.info {
-    width: 60%;
-    height: 100%;
-    background-color: red;
-} */
-
 .container>div {
     flex: 1 1 0%;
 }
 
 .pic {
-    background-image: url("./Img/rain.jpg");
+    background-image: url("./Img/woods.jpg");
     background-size: cover;
+    background-position: -60px;
 }
 
 .container>.info {
     flex: 2 1 0%;
     background-color: red;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+}
+
+.card {
+    flex: 1 1 0%;
+    background-color: white;
+    border: 1px solid black;
 }
