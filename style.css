@@ -15,7 +15,6 @@ body {
 div.container {
     height: 100vh;
     width: 65vw;
-    background-color: blue;
     margin: auto;
 
     display: flex;
@@ -31,9 +30,19 @@ div.container {
     background-position: -60px;
 }
 
+.logo {
+    background-color: black;
+    height: 140px;
+    opacity: 0.5;
+    color: white;
+    font-weight: bold;
+
+    position: relative;
+    top: 72px;
+}
+
 .container>.info {
     flex: 2 1 0%;
-    background-color: red;
 }
 
 .info {
