@@ -10,6 +10,8 @@ body {
 
 body {
     background-color: #414046;
+    font-size: 1rem;
+    
 }
 
 div.container {
@@ -28,16 +30,18 @@ div.container {
     background-image: url("./Img/woods.jpg");
     background-size: cover;
     background-position: -60px;
+
+    position: relative;
 }
 
 .logo-div {
     background-color: black;
     height: 120px;
-    opacity: 1;
+    opacity: 0.77;
     color: white;
-    font-family: 'NeocyrRegular', system-ui, sans-serif;
-    font-weight: bold;
-    font-size: 40px;
+    font-family: 'CursiveSerifBook', "system-ui", sans-serif;
+    letter-spacing: -4px;
+    font-size: 60px;
 
     position: relative;
     top: 94px;
@@ -46,6 +50,11 @@ div.container {
     justify-content: center;
     align-items: center;
 
+}
+
+.logo-div div:nth-child(2) {
+    position: relative;
+    left: -14px;
 }
 
 .logo-box {
@@ -60,6 +69,19 @@ div.container {
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+.footer-text {
+    position: absolute;
+    bottom: 0px;
+    left: 25%;
+
+    color: white;
+}
+
+.footer-text p {
+    margin-bottom: 5px;
+    font-size: 0.8rem;
 }
 
 .container>.info {
