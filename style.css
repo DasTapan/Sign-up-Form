@@ -12,7 +12,7 @@ body {
     background-color: #414046;
     font-size: 1rem;
     font-family: "system-ui", sans-serif;
-    
+
 }
 
 div.container {
@@ -63,7 +63,7 @@ div.container {
     width: 80px;
 }
 
-.logo-box > img {
+.logo-box>img {
     max-width: 100%;
     max-height: 100%;
 
@@ -88,6 +88,7 @@ div.container {
 .container>.info {
     flex: 1.8 1 0%;
 }
+
 /* .info div begins here */
 .info {
     display: flex;
@@ -96,7 +97,7 @@ div.container {
 
 .card {
     flex: 1 1 0%;
-    background-color:  #e6ecea ;
+    background-color: #e6ecea;
     padding-left: 25px;
 }
 
@@ -104,10 +105,11 @@ div.container {
     background-color: whitesmoke;
     border: 1px solid #eeeeee;
     box-shadow: 0 2px 5px #8f9393;
+    z-index: 2;
 }
 
 .card:last-child {
-    z-index: -1;
+    z-index: 1;
 }
 
 .text {
@@ -125,4 +127,32 @@ p span {
     margin-top: 0;
     margin-bottom: 15px;
 }
+
+button {
+    width: 140px;
+    height: 35px;
+    border-radius: 10px;
+    top: 20px;
+    margin-bottom: 25px;
+    border: 1px solid #dde2e2;
+
+    position: relative;
+    cursor: pointer;
+    background-color: #62bd39;
+    color: white;
+    font-weight: bold;
+    box-shadow: 0 2px 3px black;
+}
+
+a {
+    cursor: pointer;
+    text-decoration: none;
+    color: #1f9c10;
+    font-weight: bold;
+}
+
+.card-text {
+    font-size: 0.7rem;
+}
+
 /* .info div ends here */
