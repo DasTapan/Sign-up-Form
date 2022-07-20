@@ -11,6 +11,7 @@ body {
 body {
     background-color: #414046;
     font-size: 1rem;
+    font-family: "system-ui", sans-serif;
     
 }
 
@@ -87,7 +88,7 @@ div.container {
 .container>.info {
     flex: 1.8 1 0%;
 }
-
+/* .info div begins here */
 .info {
     display: flex;
     flex-direction: column;
@@ -96,6 +97,7 @@ div.container {
 .card {
     flex: 1 1 0%;
     background-color:  #e6ecea ;
+    padding-left: 25px;
 }
 
 .info div:nth-child(2) {
@@ -104,6 +106,23 @@ div.container {
     box-shadow: 0 2px 5px #8f9393;
 }
 
-.info div:last-child {
+.card:last-child {
     z-index: -1;
 }
+
+.text {
+    height: 150px;
+    width: 80%;
+    top: 46px;
+    font-weight: bold;
+    font-size: 0.95rem;
+
+    position: relative;
+}
+
+p span {
+    font-style: italic;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+/* .info div ends here */
