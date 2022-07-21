@@ -201,7 +201,7 @@ form {
 
 .form-row input:focus {
     border: 1px solid #1246db;
-    /* background-color: red; */
+    box-shadow: 0 1.3px 3px black;
 }
 
 /* form div ends here */
