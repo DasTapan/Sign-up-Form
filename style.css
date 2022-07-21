@@ -161,24 +161,35 @@ a {
 .form {
     height: 180px;
     width: 95%;
-    background-color: greenyellow;
-    color: whitesmoke;
 }
 
 form {
     height: 100%;
     width: 77%;
-    background-color: deepskyblue;
 
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
 }
 
 .mid>h5 {
     margin-top: 7px;
-    margin-bottom: 7px;
+    margin-bottom: 0;
 }
 
+.form-row label{
+    font-size: 0.6rem;
+    letter-spacing: 1.2px;
+    font-weight: bold;
+
+    color: #303131;
+}
+
+.form-row input {
+    border: 1px solid #E5E7EB;
+    border-radius: 3px;
+    font-size: 0.85rem;
+    height: 20px;
+}
 /* form div ends here */
