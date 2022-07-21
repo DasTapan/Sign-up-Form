@@ -192,4 +192,8 @@ form {
     font-size: 0.85rem;
     height: 20px;
 }
+
+.form-row input:focus {
+    border: 1px solid skyblue;
+}
 /* form div ends here */
