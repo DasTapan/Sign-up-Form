@@ -8,6 +8,12 @@ body {
     box-sizing: border-box;
 }
 
+*,
+*:focus,
+*:hover {
+    outline: none;
+}
+
 body {
     background-color: #414046;
     font-size: 1rem;
@@ -178,7 +184,7 @@ form {
     margin-bottom: 0;
 }
 
-.form-row label{
+.form-row label {
     font-size: 0.6rem;
     letter-spacing: 1.2px;
     font-weight: bold;
@@ -194,6 +200,8 @@ form {
 }
 
 .form-row input:focus {
-    border: 1px solid skyblue;
+    border: 1px solid #1246db;
+    /* background-color: red; */
 }
+
 /* form div ends here */
