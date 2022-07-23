@@ -35,10 +35,10 @@
             <div class="card mid">
                 <h5>Let's do this!</h5>
                 <div class="form">
-                    <form action="" method="get" class="sign-up-form">
+                    <form action="" method="get" class="sign-up-form" id="form1">
                         <div class="form-row">
                             <label for="first-name">FIRST NAME</label><br>
-                            <input type="text" name="first-name" id="first-name">
+                            <input type="text" name="first-name" id="first-name" required>
                         </div>
                         <div class="form-row">
                             <label for="last-name">LAST NAME</label><br>
@@ -54,17 +54,19 @@
                         </div>
                         <div class="form-row">
                             <label for="pswd">PASSWORD</label><br>
-                            <input type="password" name="password" id="pswd">
+                            <input type="password" name="password" id="pswd" required minlength="5" class="error">
+                            <span></span>
                         </div>
                         <div class="form-row">
                             <label for="pswd-cnofirm">CONFIRM PASSWORD</label><br>
-                            <input type="password" name="password-repeat" id="pswd-cnofirm">
+                            <input type="password" name="password-repeat" id="pswd-cnofirm" required minlength="5"
+                                class="error">
                         </div>
                     </form>
                 </div>
             </div>
             <div class="card lower">
-                <button type="submit">Create Account</button>
+                <button type="submit" form="form1">Create Account</button>
                 <p class="card-text">Already have an account? <a href="http://www.google.com">Log in</a></p>
             </div>
         </div>

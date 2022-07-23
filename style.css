@@ -8,6 +8,7 @@ body {
     box-sizing: border-box;
 }
 
+/* override chrome default border style on elements */
 *,
 *:focus,
 *:hover {
@@ -200,8 +201,25 @@ form {
 }
 
 .form-row input:focus {
-    border: 1px solid #1246db;
+    border: 1.3px solid #1246db;
     box-shadow: 0 1.3px 3px black;
+}
+
+input[class="error"]:invalid {
+    border: 1.3px solid #e01f33;
+}
+
+input[type="password"]+span {
+    position: relative;
+}
+
+input[class="error"]:invalid+span::after {
+    content: "* passwords do not match";
+    color: red;
+    font-size: 0.5rem;
+    position: absolute;
+    top: 24px;
+    left: -182px;
 }
 
 /* form div ends here */
