@@ -231,4 +231,17 @@ input[class="error"]:invalid+span::after {
     left: -182px;
 }
 
+.form-row .mismatch {
+    border: 1.3px solid #e01f33;
+}
+
+.form-row .mismatch+span::after {
+    content: "* passwords do not match";
+    color: red;
+    font-size: 0.5rem;
+    position: absolute;
+    top: 24px;
+    left: -182px;
+}
+
 /* form div ends here */

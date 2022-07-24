@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
+    <script src="./script.js" defer></script>
     <link rel="stylesheet" media="screen" href="https://fontlibrary.org//face/cursive" type="text/css" />
     <title>Sign-up</title>
 </head>
@@ -38,7 +39,7 @@
                     <form action="" method="get" class="sign-up-form" id="form1">
                         <div class="form-row">
                             <label for="first-name">FIRST NAME</label><br>
-                            <input type="text" name="first-name" id="first-name" required>
+                            <input type="text" name="first-name" id="first-name">
                         </div>
                         <div class="form-row">
                             <label for="last-name">LAST NAME</label><br>
@@ -59,14 +60,14 @@
                         </div>
                         <div class="form-row">
                             <label for="pswd-cnofirm">CONFIRM PASSWORD</label><br>
-                            <input type="password" name="password-repeat" id="pswd-cnofirm" required minlength="5"
+                            <input type="password" name="password-repeat" id="pswd-confirm" required minlength="5"
                                 class="error">
                         </div>
                     </form>
                 </div>
             </div>
             <div class="card lower">
-                <button type="submit" form="form1">Create Account</button>
+                <button type="submit" form="form1" id="create-btn">Create Account</button>
                 <p class="card-text">Already have an account? <a href="http://www.google.com">Log in</a></p>
             </div>
         </div>
