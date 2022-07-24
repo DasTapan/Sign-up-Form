@@ -92,6 +92,11 @@ div.container {
     font-size: 0.8rem;
 }
 
+.footer-text p a {
+    color: white;
+    font-size: 00.8rem;
+}
+
 .container>.info {
     flex: 1.8 1 0%;
 }
@@ -160,7 +165,7 @@ button:active {
     transform: translateY(2px);
 }
 
-a {
+.card-lower p a {
     cursor: pointer;
     text-decoration: none;
     color: #1f9c10;
@@ -181,7 +186,7 @@ a {
 
 form {
     height: 100%;
-    width: 77%;
+    width: 95%;
 
     display: flex;
     flex-wrap: wrap;
