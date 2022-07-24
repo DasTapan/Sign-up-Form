@@ -19,6 +19,8 @@ createAccountButton.addEventListener('click', function (event) {
 
     if (passwordValue === confirmPasswordValue) {
         console.log('hue hue');
+        passwordButton.classList.remove('mismatch');
+        confirmPasswordButton.classList.remove('mismatch');
     } else {
         console.log('kya matlab ghar se nikal');
         passwordButton.classList.add('mismatch');
