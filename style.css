@@ -1,3 +1,4 @@
+/* soft user agent reset begins */
 html,
 body {
     margin: 0;
@@ -7,6 +8,8 @@ body {
 * {
     box-sizing: border-box;
 }
+
+/* soft user agent reset ends */
 
 /* override chrome default border style on elements */
 *,
@@ -34,6 +37,8 @@ div.container {
 .container>div {
     flex: 1 1 0%;
 }
+
+/* left side img div.pic style begins here */
 
 .pic {
     background-image: url("./Img/woods.jpg");
@@ -102,6 +107,8 @@ div.container {
     flex: 1.8 1 0%;
 }
 
+/* div.pic style ends here */
+
 /* .info div begins here */
 .info {
     display: flex;
@@ -121,6 +128,7 @@ div.container {
     z-index: 2;
 }
 
+/* to make the box-shadow of middle div visible */
 .card:last-child {
     z-index: 1;
 }
@@ -224,6 +232,7 @@ input[class="error"]:invalid {
     border: 1.3px solid #e01f33;
 }
 
+/* make the span relative and ::after pseudo element absolute with it */
 input[type="password"]+span {
     position: relative;
 }

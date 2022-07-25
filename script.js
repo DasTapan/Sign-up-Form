@@ -6,6 +6,7 @@ let passwordValue = '';
 let confirmPasswordValue = '';
 
 createAccountButton.addEventListener('click', function (event) {
+    // prevents the form from submission
     event.preventDefault();
     // console.log('khi khi');
     // console.log(`Password: ${passwordButton.value}`);
