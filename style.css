@@ -126,9 +126,9 @@ div.container {
 }
 
 .text {
-    height: 150px;
+    height: 68%;
     width: 80%;
-    top: 46px;
+    top: 21%;
     font-weight: bold;
     font-size: 0.95rem;
 
@@ -181,7 +181,7 @@ button:active {
 
 /* form div begins here */
 .form {
-    height: 180px;
+    height: 79%;
     width: 95%;
 }
 
